@@ -1,0 +1,16 @@
+.icon{
+    position:"relative";
+    color:"#80868B";
+    font-size:"15px";
+    right:"380px";
+    bottom:"25px";
+}
+
+@media screen and (max-width:793px){
+    .icon{
+        position:"absolute";
+        font-size: 300px;
+
+    }
+
+}

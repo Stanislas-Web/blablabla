@@ -1,0 +1,38 @@
+.ContainerCarte {
+    width: 30%;
+    // height: 620px;
+    // overflow-y: scroll;
+    position: absolute;
+    top: 90px;
+    // right: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    border: 1px solid #FFF;
+    
+    
+
+    .bouton_carte{
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .distance{
+    text-align: center;
+  }
+  
+  .card_body{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  @media (max-width: 768px) {
+    .ContainerCarte {
+      margin-top: -300px;
+      height: inherit;
+      position: inherit;
+      width: 100%;
+      overflow-y: hidden;
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.mobile{
+    display: none;
+}
+
+span{
+    color: red;
+}
+@media screen and (max-width:793px){
+    .desktop{
+        display: none;
+        
+    }
+    .mobile{
+        display: block;
+    }
+
+}

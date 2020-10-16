@@ -1,0 +1,36 @@
+.bascule{
+    position: absolute;
+    z-index: 50;
+    margin-left: 3%;
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-family: Roboto;
+    padding: 10px;
+    outline: 0;
+}
+
+.bascule  a{
+    text-decoration: none;
+    color: #888888;
+    font-size: 16px;
+    
+}
+
+.active a{
+    color: red;
+}
+
+.bascule2{
+    position: absolute;
+    z-index: 50;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+.bascule2  a{
+    text-decoration: none;
+    color: black;
+}

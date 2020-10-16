@@ -1,0 +1,32 @@
+.formContainerAdress{
+    padding: 0 350px;
+}
+
+
+
+@media screen and (max-width:793px){
+    .formContainerAdress{
+        padding: 0 35px;
+    }
+    .btn1{
+        margin-left: -40px;
+        padding: 2px;
+    }
+    .btn2{
+        margin-left: -1px;
+        padding: 2px;
+    }
+    .btn3{
+        padding: 2px;
+    }
+    .btn1Text{
+        margin-left: -40px;
+    }
+    .btn2Text{
+        margin-left: -3px;
+    }
+    h6{
+        font-size: 12px;
+    }
+
+}

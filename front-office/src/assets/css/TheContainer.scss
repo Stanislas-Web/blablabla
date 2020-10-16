@@ -1,0 +1,39 @@
+.parent{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    .enfant{
+        margin: 2%;
+    }
+    .enfant:nth-child(1){
+        width: 60%;
+    }
+    .enfant:nth-child(2){
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width:793px){
+    .parent{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .enfant{
+            margin: 2%;
+        }
+        .enfant:nth-child(1){
+            width: 100%;
+        }
+        .enfant:nth-child(2){
+            width: 100%;
+        }
+    
+    }
+    
+
+
+}

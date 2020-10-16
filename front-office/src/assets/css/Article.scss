@@ -1,0 +1,14 @@
+.parentArticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    div {
+        p{
+            margin: 2%;
+            font-family:Roboto;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
